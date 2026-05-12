@@ -1,0 +1,32 @@
+{
+  "name": "basic_metagenome_mag_workflow",
+  "homePage": "",
+  "repos": {
+    "https://github.com/nf-core/modules.git": {
+      "modules": {
+        "nf-core": {
+          "bowtie2/align": {
+            "branch": "master",
+            "git_sha": "a30aa3fd25cc48b7612d53b749e9fcd879433f91",
+            "installed_by": ["modules"]
+          },
+          "bowtie2/build": {
+            "branch": "master",
+            "git_sha": "a30aa3fd25cc48b7612d53b749e9fcd879433f91",
+            "installed_by": ["modules"]
+          },
+          "fastp": {
+            "branch": "master",
+            "git_sha": "1fb5a73bce8e4ac7079b0a9461b23d11e877ad14",
+            "installed_by": ["modules"]
+          },
+          "spades": {
+            "branch": "master",
+            "git_sha": "eeeb609bd37db7d81d7f6cb7d23a73c08ac4d752",
+            "installed_by": ["modules"]
+          }
+        }
+      }
+    }
+  }
+}
